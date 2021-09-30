@@ -8,13 +8,15 @@ const CLASSE_INVISIVEL = "invisible"
 const ID_CARREGANDO = "carregando"
 const ID_CONTADOR = "contador"
 const ID_BOTAO_MOSTRAR_TUDO = "mostrarTudo"
+const ID_BOTAO_CODIGO = "codigo"
 const MENSAGENS = {
     sucesso: {
-        texto: "Combinação correta!",
+        texto: "Correto",
         classe: "alert-success"
+    
     },
     erro: {
-        texto: "Combinação incorreta!",
+        texto: "Errado",
         classe: "alert-danger"
     }
 }
@@ -107,6 +109,10 @@ class Tela {
     static configurarBotaoMostrarTudo(funcaoOnclick) {
         const btnMostrarTudo = document.getElementById(ID_BOTAO_MOSTRAR_TUDO)
         btnMostrarTudo.onclick = funcaoOnclick
+    }
+    static configurarBotaoCodigo (funcaoOnclick) {
+        const btnCodigo = document.getElementById(ID_BOTAO_CODIGO)
+        btnCodigo.onclick = funcaoOnclick
     }
 }
 
