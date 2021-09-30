@@ -7,8 +7,7 @@ const ID_MENSAGEM = "mensagem"
 const CLASSE_INVISIVEL = "invisible"
 const ID_CARREGANDO = "carregando"
 const ID_CONTADOR = "contador"
-const ID_BOTAO_MOSTRAR_TUDO = "mostrarTudo"
-const ID_BOTAO_CODIGO = "codigo"
+const ID_BOTAO_MOxSTRAR_TUDO = "mostrarTudo"
 const MENSAGENS = {
     sucesso: {
         texto: "Correto",
@@ -109,10 +108,6 @@ class Tela {
     static configurarBotaoMostrarTudo(funcaoOnclick) {
         const btnMostrarTudo = document.getElementById(ID_BOTAO_MOSTRAR_TUDO)
         btnMostrarTudo.onclick = funcaoOnclick
-    }
-    static configurarBotaoCodigo (funcaoOnclick) {
-        const btnCodigo = document.getElementById(ID_BOTAO_CODIGO)
-        btnCodigo.onclick = funcaoOnclick
     }
 }
 

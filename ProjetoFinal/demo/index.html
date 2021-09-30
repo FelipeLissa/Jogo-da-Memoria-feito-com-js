@@ -15,6 +15,7 @@
     <script src="./src/tela.js"></script>
     <script src="./index.js"></script>
   </head>
+  <link rel="stylesheet" href="footer.css">
   <body class="container-fluid">
     <br />
     <div class="row container-fluid">
@@ -22,12 +23,10 @@
         Iniciar Jogo
       </button>
       <div></div>
-      <button type="button" class="btn btn-danger" id="mostrarTudo">
+      <button type="button" class="btn btn-primary" id="mostrarTudo">
         Mostrar Personagens
       </button>
-        <button type="button" class="btn btn-info" onclick="window.location.href=`https://github.com/FelipeLissa/Jogo-da-memoria-js`">GitHub</button>
-
-
+        
     </div>
     <div id="carregando" class="row container-fluid invisible">
       <strong id="contador">Começando em 1 ...</strong>
@@ -47,7 +46,11 @@
       <div id="mensagem" class="alert alert-success invisible" role="alert">
         Boa
       </div>
-      
+      <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(82, 53, 53, 0.2);">
+          <a class="text-dark" href="https://github.com/FelipeLissa/Jogo-da-memoria-js">GitHub</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
