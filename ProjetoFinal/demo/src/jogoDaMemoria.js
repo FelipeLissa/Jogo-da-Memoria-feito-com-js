@@ -6,7 +6,7 @@ class JogoDaMemoria {
         this.tela = tela
         this.util = util
 
-        this.iconePadrao = './arquivos/icone.jpg'
+        this.iconePadrao = './arquivos/simbolo.jpg'
         this.heroisIniciais = [
             { img: './arquivos/Caska.jpg', nome: 'Caska' },
             { img: './arquivos/griffith.jpg', nome: 'Griffith' },
